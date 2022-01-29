@@ -15,9 +15,9 @@ Background:
      Given User on the homepage
 
 Scenario: Copy the comment link
-	 When User click on the kitchen appliances category 
-	 And User click on the freezer category
-	 And User click on the second product reviews button
+     When User click on the kitchen appliances category 
+     And User click on the freezer category
+     And User click on the second product reviews button
      Then User see the product reviews page
      When User click on the share icon of appropriate comment
      Then User see the popup with a comment link
@@ -25,9 +25,9 @@ Scenario: Copy the comment link
      Then User save link to his messenger
 
 Scenario: Rate comment
-	 When User click on the kitchen appliances category 
-	 And User click on the microwave category
-	 And User click on the first product reviews button
+     When User click on the kitchen appliances category 
+     And User click on the microwave category
+     And User click on the first product reviews button
      Then User see the product reviews page
      When User click on the thumbs up icon
      Then User see the authorization popup
@@ -41,7 +41,7 @@ Scenario: Rate comment
      Then User see the thumbs up counter indicator has increased by one
 
 Scenario: Read the comment
-	 When User click on the kitchen appliances category 
-	 And User click on the freezer category
-	 And User click on the first product reviews button
+     When User click on the kitchen appliances category 
+     And User click on the freezer category
+     And User click on the first product reviews button
      Then User see the product reviews page with comments
