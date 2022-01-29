@@ -16,18 +16,18 @@ Background:
 
 @compareAllParam
 Scenario: Compare all parameters
-	 When User scrolls to the middle of the page to the smartphone block
-	 And User click on the first product compare icon
-	 And User click on the second product compare icon
+     When User scrolls to the middle of the page to the smartphone block
+     And User click on the first product compare icon
+     And User click on the second product compare icon	 
      And User click on the third product compare icon
      Then User see the confirmation popup of adding to compare
      When User click on confirmation popup
      Then User see the comparison table of products
 
 Scenario: Compare the battery capacity
-	 When User click on smartphone category 
-	 Then User see the smartphone page
-	 When User click the first smartphone compare icon
+     When User click on smartphone category 
+     Then User see the smartphone page
+     When User click the first smartphone compare icon
      And  User click the second smartphone compare icon
      And  User click the third product compare icon
      Then User see the confirmation popup of adding to compare
@@ -37,9 +37,9 @@ Scenario: Compare the battery capacity
      Then User see the line with battery capacity information
 
 Scenario: Compare product dimensions
-	 When User click on the home appliances category 
-	 And User click on the large appliances category
-	 And User click the tumble dryers category
+     When User click on the home appliances category 
+     And User click on the large appliances category	
+     And User click the tumble dryers category		 
      And User click on the comparison icon of the four favorite products
      And User click on the third product compare icon
      Then User see the confirmation popup of adding to compare
