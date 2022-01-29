@@ -16,24 +16,24 @@ Background:
 
 @filterPrice
 Scenario: Filter products by price
-	 When User click on demanded category of products
-	 And User enter suitable price limits on the left part of page
-	 And  User click to apply filters button
+     When User click on demanded category of products
+     And User enter suitable price limits on the left part of page
+     And  User click to apply filters button
      Then User see the filtered products
 
 @filterCollectorType
 Scenario: Filter the products by dust collector type
-	When User click on home appliances category 
-	And User click on small appliances category
-	And User click 'Пилосос' button
+    When User click on home appliances category 
+    And User click on small appliances category
+    And User click 'Пилосос' button
     Then User see the vacuum-cleaner page
     When User click on 'Контейнер' check-box
     Then User see the products filtered by dustollector type
 
 @popularityFilter
 Scenario: Filter the products by popularity
-	When User click on smartfon category 
-	Then User see the smartfon page
+    When User click on smartfon category 
+    Then User see the smartfon page
     When User click on popularity rating
     Then User see the most popular smartfon page
    
