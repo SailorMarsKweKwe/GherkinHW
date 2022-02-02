@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/innasukhina/Downloads/Comfy_SpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj": {}
+    "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/Comfy_SpecFlow.csproj": {}
   },
   "projects": {
-    "/Users/innasukhina/Downloads/Comfy_SpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj": {
+    "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/Comfy_SpecFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/innasukhina/Downloads/Comfy_SpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
+        "projectUniqueName": "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
         "projectName": "Comfy_SpecFlow",
-        "projectPath": "/Users/innasukhina/Downloads/Comfy_SpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
+        "projectPath": "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
         "packagesPath": "/Users/innasukhina/.nuget/packages/",
-        "outputPath": "/Users/innasukhina/Downloads/Comfy_SpecFlow/Comfy_SpecFlow/obj/",
+        "outputPath": "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/innasukhina/.config/NuGet/NuGet.Config"
+          "/Users/innasukhina/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,19 +38,47 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Gherkin": {
+              "target": "Package",
+              "version": "[22.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.9.4, )"
+              "version": "[17.1.0-preview-20211130-02, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[98.0.4758.4800-beta, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.2, )"
+              "version": "[3.1.1, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.4.2-pre.12, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -74,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
