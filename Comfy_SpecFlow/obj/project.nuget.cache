@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZPNjzPoY/5caAWB9ICuZG9wY4yFEiYtxcFeQRZzbqb+0WWPzbm16Ds06ICCLh6HGAB+Rkh8zvbVzYZiHJ/lm1Q==",
+  "dgSpecHash": "So9DMvsRPbN54U74T60L8ufWbENo136gnKWhrrPYXrCWs4lnEPTWw+dpo4M/sKpzdvyigeIkXpnW2QEwb61Lng==",
   "success": true,
-  "projectFilePath": "/Users/innasukhina/RiderProjects/HWSeleniumSpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
+  "projectFilePath": "/Users/innasukhina/RiderProjects/SeleniumSpecFlow1Inna/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
   "expectedPackageFiles": [
     "/Users/innasukhina/.nuget/packages/bodi/1.5.0/bodi.1.5.0.nupkg.sha512",
     "/Users/innasukhina/.nuget/packages/coverlet.collector/3.1.1/coverlet.collector.3.1.1.nupkg.sha512",
