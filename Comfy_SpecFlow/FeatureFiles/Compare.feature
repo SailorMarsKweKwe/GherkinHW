@@ -14,7 +14,7 @@
 Background:
      Given User on the homepage
 
-@compareAllParam
+@compareAllParams
 Scenario: Compare all parameters
      When User scrolls to the middle of the page to the smartphone block
      And User click on the first product compare icon
