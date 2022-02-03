@@ -11,13 +11,16 @@ namespace Comfy_SpecFlow
         [Given(@"User on the homepage")]
         public void GivenUserOnTheHomepage()
         {
-            UnitTest1.DriverHolder.driver = StartDriverWithURL("");
+            DriverHolder.driver = StartDriverWithURL("http://dnepr.i-mne.com/");
         }
 
-        [When(@"User click on demanded category of products")]
-        public void WhenUserClickOnDemandedCategoryOfProducts()
+        [When(@"User click '(.*)' button")]
+        public void WhenUserClickButton(string вход)
         {
-            ScenarioContext.StepIsPending();
+            {
+                IWebElement enterButtonElement = DriverHolder.driver.FindElement(By.XPath("//a[contains(text(),'Вход')]"));
+                enterButtonElement.Click();
+            }
         }
     }
 }

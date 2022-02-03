@@ -12,15 +12,15 @@ namespace Comfy_SpecFlow
     {
         public IWebDriver StartDriverWithURL(string url)
         {
-            UnitTest1.DriverHolder.driver = new ChromeDriver();
-            UnitTest1.DriverHolder.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            UnitTest1.DriverHolder.driver.Manage().Window.Maximize();
-            UnitTest1.DriverHolder.driver.Navigate().GoToUrl(url);
-            return UnitTest1.DriverHolder.driver;
+            DriverHolder.driver = new ChromeDriver();
+            DriverHolder.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            DriverHolder.driver.Manage().Window.Maximize();
+            DriverHolder.driver.Navigate().GoToUrl(url);
+            return DriverHolder.driver;
         }
         public void Dispose()
         {
-           UnitTest1.DriverHolder.driver.Quit();
+           DriverHolder.driver.Quit();
         }
     }
 }
