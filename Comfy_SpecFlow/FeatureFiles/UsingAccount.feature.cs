@@ -139,7 +139,7 @@ namespace Comfy_SpecFlow.FeatureFiles
         testRunner.And("user enter the \'+380931111112\' in phonenumber field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 16
-        testRunner.And("user enter the \'exampletest2@ua.fm\' in email field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+        testRunner.And("user enter the \'exampletest8@ua.fm\' in email field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 17
         testRunner.And("user enter the \'Example55&\' in password field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -195,7 +195,7 @@ namespace Comfy_SpecFlow.FeatureFiles
         testRunner.And("user enter the \'Example55&\' in the password field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 25
-        testRunner.And("user click on confirmation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+        testRunner.And("user click on the confirmation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 26
         testRunner.And("user click on his name link in the upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -307,7 +307,7 @@ namespace Comfy_SpecFlow.FeatureFiles
         testRunner.And("user enter \'Example55&\' in the password field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 43
-        testRunner.And("user clicks on the confirmation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+        testRunner.And("user click on the confirmation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 44
         testRunner.And("user click on his name link in the upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

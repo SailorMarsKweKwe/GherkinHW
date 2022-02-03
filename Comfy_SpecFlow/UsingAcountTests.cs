@@ -56,7 +56,7 @@ namespace Comfy_SpecFlow
         public void WhenUserEnterTheInEmailField(string p0)
         {
             IWebElement emailElement = DriverHolder.driver.FindElement(By.Id("email"));
-            emailElement.SendKeys("exampletest8@ua.fm");
+            emailElement.SendKeys("exampletest9@ua.fm");
         }
 
         [When(@"user enter the '(.*)' in password field")]
@@ -105,8 +105,8 @@ namespace Comfy_SpecFlow
             passwordFieldElement.SendKeys("Example55&");
         }
 
-        [When(@"user click on confirmation button")]
-        public void WhenUserClickOnConfirmationButton()
+        [When(@"user click on the confirmation button")]
+        public void WhenUserClickOnTheConfirmationButton()
         {
             IWebElement submitBtn = DriverHolder.driver.FindElement(By.Id("SubmitLogin_ajax"));
             submitBtn.Click();
@@ -135,13 +135,6 @@ namespace Comfy_SpecFlow
             passwordFieldElement.SendKeys("Example55&");
         }
 
-        [When(@"user click on the confirmation button")]
-        public void WhenUserClickOnTheConfirmationButton()
-        {
-            IWebElement submitBtn = DriverHolder.driver.FindElement(By.Id("SubmitLogin_ajax"));
-            submitBtn.Click();
-        }
-        
         [When(@"user click on '(.*)' element")]
         public void WhenUserClickOnElement(string p0)
         {
@@ -191,13 +184,6 @@ namespace Comfy_SpecFlow
         {
             IWebElement passwordFieldElement = DriverHolder.driver.FindElement(By.Id("passwd_ajax"));
             passwordFieldElement.SendKeys("Example55&");
-        }
-
-        [When(@"user clicks on the confirmation button")]
-        public void WhenUserClicksOnTheConfirmationButton()
-        {
-            IWebElement submitBtn = DriverHolder.driver.FindElement(By.Id("SubmitLogin_ajax"));
-            submitBtn.Click();
         }
 
         [When(@"user click on '(.*)' linked text")]
