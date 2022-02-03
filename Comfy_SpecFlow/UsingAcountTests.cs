@@ -106,8 +106,8 @@ namespace Comfy_SpecFlow
         [When(@"user click on confirmation button")]
         public void WhenUserClickOnConfirmationButton()
         {
-            IWebElement submittElement = DriverHolder.driver.FindElement(By.Id("SubmitLogin_ajax"));
-            submittElement.Click();
+            IWebElement submitBtn = DriverHolder.driver.FindElement(By.Id("SubmitLogin_ajax"));
+            submitBtn.Click();
         }
 
         [When(@"user click on his name linked text in the upper right corner")]
@@ -129,7 +129,122 @@ namespace Comfy_SpecFlow
         [When(@"user input the '(.*)' in the email field")]
         public void WhenUserInputTheInTheEmailField(string p0)
         {
-            ScenarioContext.StepIsPending();
+            IWebElement emailFieldElement = DriverHolder.driver.FindElement(By.Id("email_ajax"));
+            emailFieldElement.SendKeys("exampletest@ua.fm");
+        }
+
+        [When(@"user input the '(.*)' in the password field")]
+        public void WhenUserInputTheInThePasswordField(string p0)
+        {
+            IWebElement passwordFieldElement = DriverHolder.driver.FindElement(By.Id("passwd_ajax"));
+            passwordFieldElement.SendKeys("Example55&");
+        }
+
+        [When(@"user click on the confirmation button")]
+        public void WhenUserClickOnTheConfirmationButton()
+        {
+            IWebElement submitBtn = DriverHolder.driver.FindElement(By.Id("SubmitLogin_ajax"));
+            submitBtn.Click();
+        }
+        
+        [When(@"user click on his name linked text in upper right corner")]
+        public void WhenUserClickOnHisNameLinkedTextInUpperRightCorner()
+        {
+            IWebElement accountElement = DriverHolder.driver.FindElement(By.LinkText("Example ExampleSecond"));
+            accountElement.Click(); 
+        }
+
+        [When(@"user click on '(.*)' element")]
+        public void WhenUserClickOnElement(string p0)
+        {
+            IWebElement myAdressElement = DriverHolder.driver.FindElement(By.LinkText("Мои адреса"));
+            myAdressElement.Click(); 
+        }
+        
+        [When(@"user click on the '(.*)' element")]
+        public void WhenUserClickOnTheElement(string p0)
+        {
+            IWebElement addNewAdressElement = DriverHolder.driver.FindElement(By.LinkText("Добавить адрес"));
+            addNewAdressElement.Click();
+        }
+
+        [When(@"user input '(.*)' in phonenumber field")]
+        public void WhenUserInputInPhonenumberField(string p0)
+        {
+            IWebElement phoneElement = DriverHolder.driver.FindElement(By.Id("phone_mobile"));
+            phoneElement.SendKeys("+380931111112");
+        }
+
+        [When(@"user click on submition button")]
+        public void WhenUserClickOnSubmitionButton()
+        {
+            IWebElement submittAdressElement = DriverHolder.driver.FindElement(By.Id("submitAddress"));
+            submittAdressElement.Click();
+        }
+
+        [Then(@"user see new address")]
+        public void ThenUserSeeNewAddress()
+        {
+            IWebElement addressTextElement = DriverHolder.driver.FindElement(By.XPath("//div[2]/div/h4"));
+            string actual = addressTextElement.Text;
+            Assert.Equal("Адрес 1", actual);
+        }
+
+         // По сценарию выхода из аккаунта.
+        [When(@"user enter '(.*)' in the email field")]
+        public void WhenUserEnterInTheEmailField(string p0)
+        {
+            IWebElement emailFieldElement = DriverHolder.driver.FindElement(By.Id("email_ajax"));
+            emailFieldElement.SendKeys("exampletest@ua.fm");
+        }
+
+        [When(@"user enter '(.*)' in the password field")]
+        public void WhenUserEnterInThePasswordField(string p0)
+        {
+            IWebElement passwordFieldElement = DriverHolder.driver.FindElement(By.Id("passwd_ajax"));
+            passwordFieldElement.SendKeys("Example55&");
+        }
+
+        [When(@"user clicks on the confirmation button")]
+        public void WhenUserClicksOnTheConfirmationButton()
+        {
+            IWebElement submitBtn = DriverHolder.driver.FindElement(By.Id("SubmitLogin_ajax"));
+            submitBtn.Click();
+        }
+
+        [When(@"user clicks on his name linked text in upper right corner")]
+        public void WhenUserClicksOnHisNameLinkedTextInUpperRightCorner()
+        {
+            IWebElement accountElement = DriverHolder.driver.FindElement(By.LinkText("Example ExampleSecond"));
+            accountElement.Click(); 
+        }
+
+        [When(@"user click on '(.*)' linked text")]
+        public void WhenUserClickOnLinkedText(string p0)
+        {
+            IWebElement submitBtn = DriverHolder.driver.FindElement(By.LinkText("Мои заказы"));
+            submitBtn.Click();
+        }
+        [When(@"user clicks on his name linked text in the upper right corner")]
+        public void WhenUserClicksOnHisNameLinkedTextInTheUpperRightCorner()
+        {
+            IWebElement accountElement = DriverHolder.driver.FindElement(By.LinkText("Example ExampleSecond"));
+            accountElement.Click(); 
+        }
+        
+        [When(@"user click on thr '(.*)' linked text")]
+        public void WhenUserClicksOnThrLinkedText(string p0)
+        {
+            IWebElement logoutElement = DriverHolder.driver.FindElement(By.LinkText("Выход"));
+            logoutElement.Click(); 
+        }
+        
+        [Then(@"user see '(.*)' linked text in upper right corner")]
+        public void ThenUserSeeLinkedTextInUpperRightCorner(string p0)
+        {
+            IWebElement inputTextElement = DriverHolder.driver.FindElement(By.LinkText("Вход"));
+            string actual = inputTextElement.Text;
+            Assert.Equal("Вход", actual);
         }
     }
 }
