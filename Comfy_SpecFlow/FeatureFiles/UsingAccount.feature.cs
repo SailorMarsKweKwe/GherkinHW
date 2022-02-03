@@ -84,7 +84,7 @@ namespace Comfy_SpecFlow.FeatureFiles
         testRunner.Given("user on the homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 8
-        testRunner.When("user click on enterence button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+        testRunner.When("user click on login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
         }
         
@@ -198,7 +198,7 @@ namespace Comfy_SpecFlow.FeatureFiles
         testRunner.And("user click on confirmation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 26
-        testRunner.And("user click on his name linked text in the upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+        testRunner.And("user click on his name link in the upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 27
         testRunner.Then("user see the account page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -248,7 +248,7 @@ namespace Comfy_SpecFlow.FeatureFiles
         testRunner.And("user click on the confirmation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 33
-        testRunner.And("user click on his name linked text in upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+        testRunner.And("user click on his name link in the upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 34
         testRunner.And("user click on \'Мои адреса\' element", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -310,13 +310,13 @@ namespace Comfy_SpecFlow.FeatureFiles
         testRunner.And("user clicks on the confirmation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 44
-        testRunner.And("user clicks on his name linked text in upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+        testRunner.And("user click on his name link in the upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 45
         testRunner.And("user click on \'Мои заказы\' linked text", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 46
-        testRunner.And("user clicks on his name linked text in the upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+        testRunner.And("user click on his name link in the upper right corner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 47
         testRunner.And("user click on thr \'Выход\' linked text", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

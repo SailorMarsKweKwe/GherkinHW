@@ -2,8 +2,6 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=B0980097_002DC1A2_002D40B3_002DABA4_002D5AE5BBCB9EA5_002Ff_003ADriverHolder_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=66008078_002D70df_002D4f57_002D9838_002De17ce04dcdfc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="FilterTheProductsFeature" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::B0980097-C1A2-40B3-ABA4-5AE5BBCB9EA5::net5.0::Comfy_SpecFlow.FeatureFiles.UsingTheAccountFeature.AutorizationExistingUser&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::B0980097-C1A2-40B3-ABA4-5AE5BBCB9EA5::net5.0::Comfy_SpecFlow.FeatureFiles.UsingTheAccountFeature.AddingNewAddressInAccount&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::B0980097-C1A2-40B3-ABA4-5AE5BBCB9EA5::net5.0::Comfy_SpecFlow.FeatureFiles.UsingTheAccountFeature.Logout&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B0980097-C1A2-40B3-ABA4-5AE5BBCB9EA5::net5.0::Comfy_SpecFlow.FeatureFiles.UsingTheAccountFeature&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

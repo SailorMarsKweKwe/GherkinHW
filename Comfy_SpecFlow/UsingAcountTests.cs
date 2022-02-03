@@ -9,20 +9,22 @@ namespace Comfy_SpecFlow
     [Binding]
     public class UsingAccountTests:BaseTest
     {
+        // Шаги Background.
         [Given(@"user on the homepage")]
         public void GivenUserOnTheHomepage()
         {
             DriverHolder.driver = StartDriverWithURL("http://dnepr.i-mne.com/");
         }
 
-        [When(@"user click on enterence button")]
-        public void WhenUserClickOnEnterenceButton()
+        [When(@"user click on login button")]
+        public void WhenUserClickOnLoginButton()
         {
             IWebElement enterBtn = DriverHolder.driver.FindElement(By.XPath("//a[contains(text(),'Вход')]"));
             enterBtn.Click();
         }
-        // Отработка сценария регистрации.
-        [When(@"user click on registration button")]
+        
+        // По сценарию регистрации нового пользователя. 
+         [When(@"user click on registration button")]
         public void GivenUserClickOnRegistrationButton()
         {
             IWebElement registrationBtn = DriverHolder.driver.FindElement(By.LinkText("Регистрация"));
@@ -54,7 +56,7 @@ namespace Comfy_SpecFlow
         public void WhenUserEnterTheInEmailField(string p0)
         {
             IWebElement emailElement = DriverHolder.driver.FindElement(By.Id("email"));
-            emailElement.SendKeys("exampletest1@ua.fm");
+            emailElement.SendKeys("exampletest8@ua.fm");
         }
 
         [When(@"user enter the '(.*)' in password field")]
@@ -110,13 +112,6 @@ namespace Comfy_SpecFlow
             submitBtn.Click();
         }
 
-        [When(@"user click on his name linked text in the upper right corner")]
-        public void WhenUserClickOnHisNameLinkedTextInTheUpperRightCorner()
-        {
-            IWebElement accountElement = DriverHolder.driver.FindElement(By.LinkText("Example ExampleSecond"));
-            accountElement.Click(); 
-        }
-
         [Then(@"user see the account page")]
         public void ThenUserSeeTheAccountPage()
         {
@@ -147,13 +142,6 @@ namespace Comfy_SpecFlow
             submitBtn.Click();
         }
         
-        [When(@"user click on his name linked text in upper right corner")]
-        public void WhenUserClickOnHisNameLinkedTextInUpperRightCorner()
-        {
-            IWebElement accountElement = DriverHolder.driver.FindElement(By.LinkText("Example ExampleSecond"));
-            accountElement.Click(); 
-        }
-
         [When(@"user click on '(.*)' element")]
         public void WhenUserClickOnElement(string p0)
         {
@@ -212,26 +200,13 @@ namespace Comfy_SpecFlow
             submitBtn.Click();
         }
 
-        [When(@"user clicks on his name linked text in upper right corner")]
-        public void WhenUserClicksOnHisNameLinkedTextInUpperRightCorner()
-        {
-            IWebElement accountElement = DriverHolder.driver.FindElement(By.LinkText("Example ExampleSecond"));
-            accountElement.Click(); 
-        }
-
         [When(@"user click on '(.*)' linked text")]
         public void WhenUserClickOnLinkedText(string p0)
         {
             IWebElement submitBtn = DriverHolder.driver.FindElement(By.LinkText("Мои заказы"));
             submitBtn.Click();
         }
-        [When(@"user clicks on his name linked text in the upper right corner")]
-        public void WhenUserClicksOnHisNameLinkedTextInTheUpperRightCorner()
-        {
-            IWebElement accountElement = DriverHolder.driver.FindElement(By.LinkText("Example ExampleSecond"));
-            accountElement.Click(); 
-        }
-        
+
         [When(@"user click on thr '(.*)' linked text")]
         public void WhenUserClicksOnThrLinkedText(string p0)
         {
