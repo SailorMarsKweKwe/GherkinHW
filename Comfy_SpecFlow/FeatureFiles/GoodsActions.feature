@@ -1,15 +1,14 @@
 ﻿Feature: Using the account
 In order to surprise friends with interesting facts
 As a user
-I want to have opportunity to read some information about the products 
-   
-    
+I want to have opportunity to read some information about the products
+
     Background:
-        Given user on the homepage
-        When user click on login button
-        And user enter the 'exampletest@ua.fm' in the email field
-        And user enter the 'Example55&' in the password field
-        And user click on the confirmation button
+        Given user on the website homepage
+        When user click on the login button
+        And user enter 'exampletest@ua.fm' in the email field
+        And user enter 'Example55&' in the password field
+        And user click the confirmation button
         
     @mytag
     Scenario: Reading comments about linen urbech
@@ -19,7 +18,7 @@ I want to have opportunity to read some information about the products
         
     Scenario: Reading the interesting information about roasted peanuts
         When user type 'арахис жареный' in the search box
-        And user press 'Enter' button
+        And user press Enter button
         And user click on the first product
         Then user see the 'Полезная тайна об арахисе' text
         
