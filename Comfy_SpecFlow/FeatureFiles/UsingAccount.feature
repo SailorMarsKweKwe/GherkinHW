@@ -5,7 +5,7 @@
     
     Background:
         Given user on the homepage
-        When user click on enterence button
+        When user click on login button
         
     @mytag
     Scenario: Registration new user
@@ -13,7 +13,7 @@
         And user enter the 'Example' in name field
         And user enter the 'ExampleSecond' in surname field
         And user enter the '+380931111112' in phonenumber field
-        And user enter the 'exampletest2@ua.fm' in email field
+        And user enter the 'exampletest8@ua.fm' in email field
         And user enter the 'Example55&' in password field
         And user click on registration confirmation button
         And user click on his name link in the upper right corner
@@ -23,14 +23,14 @@
         When user enter the 'exampletest@ua.fm' in the email field
         And user enter the 'Example55&' in the password field
         And user click on confirmation button
-        And user click on his name linked text in the upper right corner
+        And user click on his name link in the upper right corner
         Then user see the account page
         
     Scenario: Adding new address in account
         When user input the 'exampletest@ua.fm' in the email field
         And user input the 'Example55&' in the password field
         And user click on the confirmation button
-        And user click on his name linked text in upper right corner
+        And user click on his name link in the upper right corner
         And user click on 'Мои адреса' element
         And user click on the 'Добавить адрес' element
         And user input '+380931111112' in phonenumber field
@@ -41,9 +41,9 @@
         When user enter 'exampletest@ua.fm' in the email field
         And user enter 'Example55&' in the password field
         And user clicks on the confirmation button
-        And user clicks on his name linked text in upper right corner
+        And user click on his name link in the upper right corner
         And user click on 'Мои заказы' linked text
-        And user clicks on his name linked text in the upper right corner
+        And user click on his name link in the upper right corner
         And user click on thr 'Выход' linked text
         Then user see 'Вход' linked text in upper right corner
         
