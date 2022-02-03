@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{B0980097-C1A2-40B3-ABA4-5AE5BBCB9EA5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Comfy_SpecFlow/UnitTest1.cs">
+    <Files>
+      <File FileName="Comfy_SpecFlow/FeatureFiles/Comments.feature" Line="1" Column="1" />
+      <File FileName="Comfy_SpecFlow/FeatureFiles/Compare.feature" />
+      <File FileName="../../Downloads/TestProject5/TestProject5.sln" />
+      <File FileName="Comfy_SpecFlow/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="../../Downloads/TestProject5/TestProject5/featuareNumberOne.feature.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Comfy_SpecFlow" expanded="True">
+            <Node name="Comfy_SpecFlow" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="xunit" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="FeatureFiles" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Comfy__SpecFlow PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

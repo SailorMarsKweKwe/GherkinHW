@@ -1,8 +1,8 @@
 ﻿using Xunit;
 
-namespace Comfy_SpecFlow
+namespace Imne_SpecFlow
 {
-    public class UnitTest1
+    public partial class UnitTest1
     {
         [Fact]
         public void Test1()
