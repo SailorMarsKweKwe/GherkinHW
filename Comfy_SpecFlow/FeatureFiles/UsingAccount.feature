@@ -1,7 +1,8 @@
 ﻿Feature: Using the account
-   As a customer
-   I want to have opportunity to filter the products
-   In order to select the most suitable product for me
+   In order to buy my favorite products faster
+   As a user
+   I want to have opportunity to register my account 
+   
     
     Background:
         Given user on the homepage
