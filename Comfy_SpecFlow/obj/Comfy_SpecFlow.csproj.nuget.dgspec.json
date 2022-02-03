@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/Comfy_SpecFlow.csproj": {}
+    "/Users/innasukhina/RiderProjects/HWSeleniumSpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj": {}
   },
   "projects": {
-    "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/Comfy_SpecFlow.csproj": {
+    "/Users/innasukhina/RiderProjects/HWSeleniumSpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
+        "projectUniqueName": "/Users/innasukhina/RiderProjects/HWSeleniumSpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
         "projectName": "Comfy_SpecFlow",
-        "projectPath": "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
+        "projectPath": "/Users/innasukhina/RiderProjects/HWSeleniumSpecFlow/Comfy_SpecFlow/Comfy_SpecFlow.csproj",
         "packagesPath": "/Users/innasukhina/.nuget/packages/",
-        "outputPath": "/Users/innasukhina/Projects/GherkinHW/Comfy_SpecFlow/obj/",
+        "outputPath": "/Users/innasukhina/RiderProjects/HWSeleniumSpecFlow/Comfy_SpecFlow/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/innasukhina/.nuget/NuGet/NuGet.Config"

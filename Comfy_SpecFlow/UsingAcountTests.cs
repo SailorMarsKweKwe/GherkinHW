@@ -121,20 +121,6 @@ namespace Comfy_SpecFlow
         }
         
         // Сценарий добавления нового адреса в аккаунт
-        [When(@"user input the '(.*)' in the email field")]
-        public void WhenUserInputTheInTheEmailField(string p0)
-        {
-            IWebElement emailFieldElement = DriverHolder.driver.FindElement(By.Id("email_ajax"));
-            emailFieldElement.SendKeys("exampletest@ua.fm");
-        }
-
-        [When(@"user input the '(.*)' in the password field")]
-        public void WhenUserInputTheInThePasswordField(string p0)
-        {
-            IWebElement passwordFieldElement = DriverHolder.driver.FindElement(By.Id("passwd_ajax"));
-            passwordFieldElement.SendKeys("Example55&");
-        }
-
         [When(@"user click on '(.*)' element")]
         public void WhenUserClickOnElement(string p0)
         {
@@ -172,21 +158,7 @@ namespace Comfy_SpecFlow
         }
 
          // По сценарию выхода из аккаунта.
-        [When(@"user enter '(.*)' in the email field")]
-        public void WhenUserEnterInTheEmailField(string p0)
-        {
-            IWebElement emailFieldElement = DriverHolder.driver.FindElement(By.Id("email_ajax"));
-            emailFieldElement.SendKeys("exampletest@ua.fm");
-        }
-
-        [When(@"user enter '(.*)' in the password field")]
-        public void WhenUserEnterInThePasswordField(string p0)
-        {
-            IWebElement passwordFieldElement = DriverHolder.driver.FindElement(By.Id("passwd_ajax"));
-            passwordFieldElement.SendKeys("Example55&");
-        }
-
-        [When(@"user click on '(.*)' linked text")]
+         [When(@"user click on '(.*)' linked text")]
         public void WhenUserClickOnLinkedText(string p0)
         {
             IWebElement submitBtn = DriverHolder.driver.FindElement(By.LinkText("Мои заказы"));

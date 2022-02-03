@@ -27,8 +27,8 @@
         Then user see the account page
         
     Scenario: Adding new address in account
-        When user input the 'exampletest@ua.fm' in the email field
-        And user input the 'Example55&' in the password field
+        When user enter the 'exampletest@ua.fm' in the email field
+        And user enter the 'Example55&' in the password field
         And user click on the confirmation button
         And user click on his name link in the upper right corner
         And user click on 'Мои адреса' element
@@ -38,8 +38,8 @@
         Then user see new address
         
     Scenario: Logout
-        When user enter 'exampletest@ua.fm' in the email field
-        And user enter 'Example55&' in the password field
+        When user enter the 'exampletest@ua.fm' in the email field
+        And user enter the 'Example55&' in the password field
         And user click on the confirmation button
         And user click on his name link in the upper right corner
         And user click on 'Мои заказы' linked text
