@@ -13,7 +13,7 @@
         And user enter the 'Example' in name field
         And user enter the 'ExampleSecond' in surname field
         And user enter the '+380931111112' in phonenumber field
-        And user enter the 'exampletest8@ua.fm' in email field
+        And user enter the 'exampletest9@ua.fm' in email field
         And user enter the 'Example55&' in password field
         And user click on registration confirmation button
         And user click on his name link in the upper right corner
@@ -22,7 +22,7 @@
     Scenario: Autorization existing user
         When user enter the 'exampletest@ua.fm' in the email field
         And user enter the 'Example55&' in the password field
-        And user click on confirmation button
+        And user click on the confirmation button
         And user click on his name link in the upper right corner
         Then user see the account page
         
@@ -40,7 +40,7 @@
     Scenario: Logout
         When user enter 'exampletest@ua.fm' in the email field
         And user enter 'Example55&' in the password field
-        And user clicks on the confirmation button
+        And user click on the confirmation button
         And user click on his name link in the upper right corner
         And user click on 'Мои заказы' linked text
         And user click on his name link in the upper right corner
