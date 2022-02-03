@@ -14,11 +14,13 @@ namespace Comfy_SpecFlow
             DriverHolder.driver = StartDriverWithURL("http://dnepr.i-mne.com/");
         }
 
-        [When(@"User click on demanded category of products")]
-        public void WhenUserClickOnDemandedCategoryOfProducts()
+        [When(@"User click '(.*)' button")]
+        public void WhenUserClickButton(string вход)
         {
-            IWebElement enterButtonElement = DriverHolder.driver.FindElement(By.XPath("//a[contains(text(),'Вход')]"));
-            enterButtonElement.Click();
+            {
+                IWebElement enterButtonElement = DriverHolder.driver.FindElement(By.XPath("//a[contains(text(),'Вход')]"));
+                enterButtonElement.Click();
+            }
         }
     }
 }

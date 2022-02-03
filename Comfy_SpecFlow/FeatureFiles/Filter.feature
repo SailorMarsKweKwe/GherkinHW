@@ -16,7 +16,7 @@ Background:
 
 @filterPrice
 Scenario: Filter products by price
-     When User click on demanded category of products
+     When User click 'Вход' button
      And User enter suitable price limits on the left part of page
      And  User click to apply filters button
      Then User see the filtered products
